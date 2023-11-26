@@ -15,7 +15,7 @@ func TestGrammar(t *testing.T) {
 	n, err := sitter.ParseCtx(context.Background(), []byte("# hi\n## hello"), markdown.GetLanguage())
 	assert.NoError(err)
 	assert.Equal(
-		"(module (expression_statement (call function: (identifier) arguments: (argument_list (integer)))))",
+		"(document (atx_heading (atx_h1_marker) (heading_content (text))) (atx_heading (atx_h2_marker) (heading_content (text))))",
 		n.String(),
 	)
 }

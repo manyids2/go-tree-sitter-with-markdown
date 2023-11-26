@@ -1,6 +1,6 @@
 package markdown
 
-//#include "parser.c"
+//#include "tree_sitter/parser.h"
 //TSLanguage *tree_sitter_markdown();
 import "C"
 import (
