@@ -1,4 +1,4 @@
-module github.com/smacker/go-tree-sitter
+module github.com/manyids2/go-tree-sitter-with-markdown
 
 go 1.13
 

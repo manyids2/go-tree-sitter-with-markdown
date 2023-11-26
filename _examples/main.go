@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	sitter "github.com/smacker/go-tree-sitter"
-	"github.com/smacker/go-tree-sitter/javascript"
+	sitter "github.com/manyids2/go-tree-sitter-with-markdown"
+	"github.com/manyids2/go-tree-sitter-with-markdown/javascript"
 )
 
 func main() {
